@@ -1,0 +1,63 @@
+html, body {
+    padding: 5px 20px;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    background: darkorange;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+.resultFor {
+    margin: 20px 0 0 0;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultRow {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.resultContainer {
+    border: 1px solid #c4c1c1;
+    margin: 10px;
+
+}
+
+.key {
+    flex:1;
+    border-right: 1px solid #ddd;
+}
+
+.value {
+    flex: 3;
+    text-indent: 20px;
+}
+input {
+    outline: none;
+    height: 1.2em;
+    font-size: 2em;
+    width: 100%;
+    line-height: 4em;
+    padding: 30px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    border-radius: 5px;
+}
